@@ -7,7 +7,7 @@ its signing key: open **Settings → System → Extensions** on the unit and tap
 | Extension | Version | What it does |
 | --- | --- | --- |
 | MIDI Mapper | 0.2.0 | Reserves a second MIDI channel and offers its CCs, notes and program changes as triggers on the Mappings page. |
-| Neural Amp Modeler | 0.3.0 | Plays Neural Amp Modeler models (.nam files) as Guitar Amplifier blocks: LSTM models and the trainer's WaveNet nano, feather and lite sizes. |
+| Neural Amp Modeler | 0.3.1 | Plays Neural Amp Modeler models (.nam files) as Guitar Amplifier blocks: LSTM models and the trainer's WaveNet nano, feather and lite sizes. |
 | DSP Examples | 0.2.0 | Eight small DSP blocks from the qcdsp examples: gain, two drives, tremolo, slapback, echo, envelope filter and a monophonic synth. |
 
 Neural Amp Modeler and DSP Examples add DSP blocks (extension API 2). A unit shows them only when
