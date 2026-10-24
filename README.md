@@ -6,13 +6,14 @@ its signing key: open **Settings → System → Extensions** on the unit and tap
 
 | Extension | Version | What it does |
 | --- | --- | --- |
-| MIDI Mapper | 0.2.0 | Reserves a second MIDI channel and offers its CCs, notes and program changes as triggers on the Mappings page. |
+| MIDI Mapper | 0.3.0 | Reserves a second MIDI channel and offers its CCs, notes and program changes as triggers on the Mappings page. A note-off releases its note, for Momentary mappings. |
 | Neural Amp Modeler | 0.3.1 | Plays Neural Amp Modeler models (.nam files) as Guitar Amplifier blocks: LSTM models and the trainer's WaveNet nano, feather and lite sizes. |
 | DSP Examples | 0.3.0 | Seven small DSP blocks from the qcdsp examples: gain, two drives, tremolo, slapback, echo and envelope filter. |
 | Sweep Synth | 0.1.0 | An analog-style mono synth, as a guitar block and a bass block, with a filter that sweeps on each note. |
 
 Neural Amp Modeler, DSP Examples and Sweep Synth add DSP blocks (extension API 2). A unit shows them only when
-its Tetrad build supports DSP blocks.
+its Tetrad build supports DSP blocks. MIDI Mapper 0.3.0 uses extension API 3 (releases); a Tetrad
+build before API 3 keeps MIDI Mapper 0.2.0.
 
 ## What is in this repository
 
