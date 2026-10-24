@@ -10,10 +10,12 @@ its signing key: open **Settings → System → Extensions** on the unit and tap
 | Neural Amp Modeler | 0.3.1 | Plays Neural Amp Modeler models (.nam files) as Guitar Amplifier blocks: LSTM models and the trainer's WaveNet nano, feather and lite sizes. |
 | DSP Examples | 0.3.0 | Seven small DSP blocks from the qcdsp examples: gain, two drives, tremolo, slapback, echo and envelope filter. |
 | Sweep Synth | 0.1.0 | An analog-style mono synth, as a guitar block and a bass block, with a filter that sweeps on each note. |
+| Custom Footswitch Mode | 0.1.0 | Adds a Custom footswitch mode: four pages of ten switches, each with a scene, preset, block, MIDI, system, page or extension action that you choose on the unit. No code runs. |
 
 Neural Amp Modeler, DSP Examples and Sweep Synth add DSP blocks (extension API 2). A unit shows them only when
 its Tetrad build supports DSP blocks. MIDI Mapper 0.3.0 uses extension API 3 (releases); a Tetrad
-build before API 3 keeps MIDI Mapper 0.2.0.
+build before API 3 keeps MIDI Mapper 0.2.0. Custom Footswitch Mode uses extension API 4: it shows
+on Tetrad 0.1.0-alpha.7 and later.
 
 ## What is in this repository
 
