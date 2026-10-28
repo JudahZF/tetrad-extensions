@@ -15,6 +15,20 @@
       }
     },
     {
+      "id": "tetrad.doom",
+      "name": "DOOM",
+      "version": "0.1.0",
+      "description": "The shareware episode of DOOM on the screen, played with the footswitches (qcDOOM by Thomas Van Iseghem).",
+      "api": 7,
+      "asset": {
+        "tag": "extensions-2026-10-28",
+        "name": "tetrad.doom-0.1.0.tetradext",
+        "size": 565,
+        "sha256": "683c75e6bd2bfcd7ca567e5b6323adb642b83ca1a1976c2243ff60154a0e3b9e"
+      },
+      "app": true
+    },
+    {
       "id": "tetrad.dsp-examples",
       "name": "DSP Examples",
       "version": "0.1.0",
